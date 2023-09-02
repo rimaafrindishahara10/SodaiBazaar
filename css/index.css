@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+body{
+    background-color: rgb(240, 240, 166);
+}
+.navbar{
+
+    height: 50px ;
+    background-color: rgb(101, 126, 118);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+#h1Sodai a{
+    width: 100%;
+    color: rgb(233, 169, 51);
+    font-size: 21px;
+    border-bottom: 2px solid whitesmoke;
+    border-radius: 47%;
+    text-decoration: none;
+   
+    
+    
+}
+#h1Sodai:hover{
+    border: 2px solid white;
+    color: rgb(250, 201, 110);
+    border-radius: 5%;
+    padding: 2px;
+    
+    
+}
+.nav-address{
+    font-size: 14px;
+    color: rgb(231, 231, 180);
+}
+.nav-address:hover{
+    border: 2px solid white;
+    color: rgb(250, 201, 110);
+    border-radius: 5%;
+    padding: 5px;
+
+}
+
+.add-icon{
+    display: flex;
+   
+}
+#one{
+  margin-top: 2px;
+}
+#second{
+    margin-left: 3px;
+}
+.nav-search{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.select-search{
+    font-size: 15px;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    height: 30px;
+
+}
+.input-search{
+    height: 28px;
+    font-size: 15px;
+    width: 400px;
+    border: none;
+}
+.search-icon{
+
+    font-size: 15px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    background-color: rgb(235, 182, 84);
+    height: 28px;
+    width: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(242, 245, 244);
+  
+    
+}
+.nav-signin ,p a{
+    color: rgb(240, 173, 50);
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+.nav-signin:hover{
+    color: rgb(255, 173, 21);
+    border: 2px solid whitesmoke ;
+    border-radius: 4px;
+    padding: 5px;
+}
+.nav-carts{
+    color: rgb(240, 173, 50);
+}
+.nav-carts:hover{
+    color: rgb(255, 173, 21);
+    border: 2px solid whitesmoke ;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+/* Main-section */
+
+.main-section{
+    background-image: url(/img/mainpic.jpg);
+    background-size: cover;
+    height: 400px;
+}
+
+
+/* Shopping-section */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box{
+    border: 1px solid rgb(196, 138, 138);
+    height: 380px;
+    width: 22%;
+    background-color: white;
+    padding: 10px;
+}
+
+.box-img{
+    height: 300px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+     
+}
+.a1{
+    color: rgb(68, 42, 42);
+}
